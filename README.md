@@ -1,6 +1,6 @@
 # Vagrant-htb
 
-## Kali vagrant setup (minimal)
+## Kali vagrant setup
 
 __Tools installed__
 
@@ -12,6 +12,7 @@ __Tools installed__
   - nmap
   - webshells
   - docker-ce
+  - gobuster
 
 If you want to add more, just edit the provision/kali.yml file. 
 
@@ -20,7 +21,7 @@ __Fancy Git repo's added__
   - Impacket
   - Nishang
 
-Againg, if you want to add more just append the git repo blocks within the provision/kali.yml
+Again, if you want to add more just append the git repo blocks within the provision/kali.yml
 
 ## Install VirtualBox
 
@@ -48,7 +49,7 @@ vagrant up
 
 The vagrant machine automatically sets up a Socks Proxy. This way, you can use your Burp Suite on your Native OS ;-) 
 
-On native OS, set Socks Proxy wihtin Burp Suite
+On native OS, set Socks Proxy within Burp Suite
 ```
 127.0.0.1
 1080

@@ -22,7 +22,8 @@
           - tmux
           - nmap
           - webshells
-          - ipython3 
+          - ipython3
+          - gobuster
         state: present
 
     - name: ensure old versions of Docker are not installed
