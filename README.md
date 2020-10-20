@@ -20,6 +20,13 @@ __Fancy Git repo's added__
 
   - Impacket
   - Nishang
+  - LinEnum
+  - PrivescCheck 
+  - evil-winrm
+  - dirsearch
+  - peas
+  - seclists
+  - oh-my-tmux
 
 Again, if you want to add more just append the git repo blocks within the provision/kali.yml
 
